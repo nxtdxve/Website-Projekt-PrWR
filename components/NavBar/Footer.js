@@ -44,8 +44,8 @@ const Footer = ({ fullWidth }) => {
     }, */
     {
       id: 2,
-      name: t.NAV.SOURCES,
-      to: '/sources',
+      name: t.NAV.BOOKS,
+      to: '/quellen',
       icon: <BookOpenIcon className='inline-block mb-1 h-5 w-5' />,
       show: true
     },
