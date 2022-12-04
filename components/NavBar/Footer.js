@@ -52,7 +52,7 @@ const Footer = ({ fullWidth }) => {
     {
       id: 3,
       name: t.NAV.CONTACT,
-      to: '/contact',
+      to: '/kontakt',
       icon: <MailIcon className='inline-block mb-1 h-5 w-5' />,
       show: true
     }
