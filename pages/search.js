@@ -9,7 +9,6 @@ export async function getStaticProps() {
   const tags = getAllTagsFromPosts(posts)
   return {
     props: {
-      tags,
       posts
     },
     revalidate: 1
