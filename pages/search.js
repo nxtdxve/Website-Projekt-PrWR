@@ -1,4 +1,3 @@
-import { getAllPosts, getAllTagsFromPosts } from '@/lib/notion'
 import SearchLayout from '@/layouts/search'
 
 export default function search({ tags, posts }) {
